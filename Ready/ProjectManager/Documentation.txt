@@ -1,0 +1,10 @@
+﻿Bugs:
+
+#1 Engine should use an instance of Filelogger instead of string in Startup.cs
+#2 Unreachable code at original CommanProcessor.cs - 
+#3 Missing constructors at CreateUserCommand and CreateTaskCommand
+#4 When Listing projects Email and Username are switched
+
+Bottleneck:
+
+#1 //var end = DateTime.Now + TimeSpan.FromSeconds(1); //while (DateTime.Now < end) ; This was the bottleneck
